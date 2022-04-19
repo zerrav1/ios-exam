@@ -43,6 +43,7 @@ extension UserDetailsViewController {
         lastNameLabel.text = userDetailsViewModel.userDetails.name?.last
         birthdayLabel.text = userDetailsViewModel.getFormattedBirthday()
         ageLabel.text = "\(userDetailsViewModel.userDetails.dob?.age ?? 0)"
+        emailLabel.text = userDetailsViewModel.userDetails.email ?? ""
         mobileNumberLabel.text = userDetailsViewModel.userDetails.phone
         addressLabel.text = userDetailsViewModel.getFormattedAddress()
     }
