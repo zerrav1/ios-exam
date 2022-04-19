@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.5.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SecureDefaults (1.0.7)
+
+DEPENDENCIES:
+  - Alamofire
+  - RxCocoa (= 6.5.0)
+  - RxSwift (= 6.5.0)
+  - SecureDefaults (= 1.0.7)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SecureDefaults
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SecureDefaults: 09bb6c96fd8cdd31da196853120f4f279207435a
+
+PODFILE CHECKSUM: e93e745d9542b42bad7831a2dd3650ff9c12f15b
+
+COCOAPODS: 1.11.3
